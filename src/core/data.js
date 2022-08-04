@@ -172,6 +172,7 @@ define(function(require, exports, module) {
                     jsonMap[level] = jsonNode;
                 }
             }
+            
             importChildren(node, children);
             minder.refresh();
         },
